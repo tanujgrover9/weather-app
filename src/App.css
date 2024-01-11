@@ -1,0 +1,13 @@
+body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(67 174 252/var(--tw-bg-opacity));
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  
+}
+

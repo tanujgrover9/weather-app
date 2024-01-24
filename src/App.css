@@ -1,6 +1,8 @@
-body{
+body {
   --tw-bg-opacity: 1;
-  background-color: rgb(67 174 252/var(--tw-bg-opacity));
+  /* background-color: rgb(67 174 252/var(--tw-bg-opacity)); */
+  background-image: url(./assets/noaa.jpg);
+  background-size: cover;
 }
 .container {
   display: flex;
@@ -8,6 +10,4 @@ body{
   align-items: center;
   min-height: 100vh;
   width: 100vw;
-  
 }
-

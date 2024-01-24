@@ -1,66 +1,67 @@
-.Weather-Card{
-    
-    background-color: white;
-    border-radius: 0.5rem;
-    width: 30%;
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.Weather-Card {
+  background-color: rgb(101, 101, 234);
+  border-radius: 0.5rem;
+  width: 30%;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  border: 1px solid;
 }
-.header-title{
-    color: #43aefc;
-    display: flex;
-    align-items: center;
-    padding-top: 0.5rem;
+.header-title {
+  color: #15069c;
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
 }
-.weather-icon{
-    height: 150px;
-    width: 150px;
-    margin-left: 28%;
+.weather-icon {
+  height: 150px;
+  width: 150px;
+  margin-left: 28%;
 }
-.Temp{
-    text-align: center;
-    font-size: 4rem;
+.Temp {
+  text-align: center;
+  font-size: 4rem;
 }
-.weather{
-    text-align: center;
-    font-size: 2rem;
+.weather {
+  text-align: center;
+  font-size: 2rem;
 }
 
-.location{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
 }
 
 .details {
-    display: flex;
-    justify-content: space-around;
-  }
-  .feels_like {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.7em 2em;
-  }
-  .humidity {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-left: 0.1em solid lightgray;
-    padding: 0.7em 2em;
-  }
-  
-  .tempFeels {
-    font-size: medium;
-    margin: 0;
-    margin-left: 0.3em;
-    font-weight: 500;
-  }
-  .textFeels {
-    font-size: x-small;
-    margin: 0;
-    margin-left: 0.3em;
-  }
+  display: flex;
+  justify-content: space-around;
+}
+.feels_like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em 2em;
+}
+.humidity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.1em solid lightgray;
+  padding: 0.7em 2em;
+}
+
+.tempFeels {
+  font-size: medium;
+  margin: 0;
+  margin-left: 0.3em;
+  font-weight: 500;
+}
+.textFeels {
+  font-size: x-small;
+  margin: 0;
+  margin-left: 0.3em;
+}
